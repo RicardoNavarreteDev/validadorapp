@@ -62,5 +62,5 @@ La clase o método principal no está siendo cubierto por pruebas automatizadas.
 Solución:
 Agregar pruebas unitarias que ejerciten este código, idealmente con assertions que validen su comportamiento.
 
-🛠️ Imagen con las correcciones hechas
+🛠️ Imagen con las Correcciones Aplicadas
 ![Página principal](src/images/SegundaPruebaCorrecion.png)
