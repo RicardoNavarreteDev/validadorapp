@@ -64,3 +64,20 @@ Agregar pruebas unitarias que ejerciten este código, idealmente con assertions 
 
 🛠️ Imagen con las Correcciones Aplicadas
 ![Página principal](src/images/SegundaPruebaCorrecion.png)
+
+Preguntas Finales
+¿Qué tipo de errores detectó SonarQube que podrían haber pasado desapercibidos?
+SonarQube encontró errores como variables declaradas pero no usadas, comentarios pendientes de corrección (FIXME), nombres de variables que no siguen las buenas prácticas, y el uso de System.out.println en lugar de un sistema de logging. Son detalles pequeños que pueden pasar inadvertidos, pero que afectan la calidad y mantenimiento del código.
+
+¿Qué ventajas tiene el análisis estático respecto al dinámico?
+El análisis estático examina el código sin ejecutarlo, permitiendo detectar problemas temprano, como errores de estilo, convenciones, seguridad o código innecesario. Es rápido y puede aplicarse a todo el código automáticamente. En cambio, el análisis dinámico requiere ejecutar el programa y detecta fallos en tiempo real, como errores de ejecución o problemas de rendimiento.
+
+¿Cómo impacta SonarQube en la calidad del software antes del despliegue?
+Ayuda a entregar un código más limpio, confiable y fácil de mantener, detectando errores antes de que lleguen a producción. Esto reduce riesgos, previene bugs y fomenta buenas prácticas en el equipo, disminuyendo la deuda técnica.
+
+¿Qué políticas o reglas personalizarías según el tipo de proyecto?
+En proyectos abiertos, enfocarse en legibilidad y documentación para facilitar colaboraciones.
+
+En proyectos críticos, activar reglas estrictas de seguridad y manejo de datos sensibles.
+
+En proyectos pequeños o educativos, mantener reglas flexibles para favorecer el aprendizaje sin frenar el desarrollo.
